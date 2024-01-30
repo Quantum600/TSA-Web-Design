@@ -1,19 +1,32 @@
-/* Lato font setup */
+/*
+    LATO FONT SETUP -- Include on every page and includes lato font to be used throughout the pages
+*/
+
 @font-face {
+    /* Le regular fonte */
     font-family: lato;
     src: url(fonts/Lato-Regular.ttf);
     font-weight: normal;
 }
 
 @font-face {
+    /* Le bolde fonte */
     font-family: lato;
     src: url(fonts/Lato-Black.ttf);
     font-weight: bold;
 }
 
 @font-face {
+    /* Le italica and bolde fonte */
     font-family: lato;
     src: url(fonts/Lato-BlackItalic.ttf);
     font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    /* Le italica fonte */
+    font-family: lato;
+    src: url(fonts/Lato-Italic.ttf);
     font-style: italic;
 }

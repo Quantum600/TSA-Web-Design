@@ -1,0 +1,57 @@
+/*
+    DEFAULT NAVBAR SETUP -- INCLUDE ON EVERY WEBPAGE!
+*/
+
+:root {
+    /* Variables */
+    --navbar-background: rgb(50, 50, 50);
+    --navbar-background-hover: rgb(0,128,128);
+    --navbar-shadow: rgb(100, 100, 100);
+    --navbar-radius: 10px;
+    --navlink-text-color: rgb(255, 255, 255);
+}
+
+body {
+    /* Center body */
+    max-width: 1280px;
+    margin: auto;
+}
+
+.nav-list {
+    /* Random navbar stuff */
+    background:var(--navbar-background);
+    box-shadow: 0px 0px 20px var(--navbar-shadow);
+    margin:0;
+    border-radius: var(--navbar-radius);
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-item {
+    /* Padding/settings of navigation items */
+    list-style: none;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    transition: all 100ms ease-in;
+}
+
+.nav-item:hover {
+    /* Change color when hovering on link */
+    background-color: var(--navbar-background-hover);
+}
+
+.nav-item a {
+    /* Changing color and deco of links */
+    text-decoration: none;
+    color: var(--navlink-text-color);
+    font-size: 1.3rem;
+    font-family: lato;
+}
+
+.nav-item:first-child {
+    /* Put the logo on the far left of navbar */
+    margin-right: auto;
+}
