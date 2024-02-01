@@ -1,0 +1,17 @@
+/*
+    WEBSITE THEME COLORS -- Includes all the website theme colorss
+*/
+
+:root {
+    /* Website accent colors */
+    --primary-accent-color: #66fcf1;
+    --secondary-accent-color: #45a29e;
+
+    /* Website text colors */
+    --primary-text-color: #c5c6c7;
+    --secondary-text-color: #000000;
+
+    /* Website button colors */
+    --primary-button-color: #66fcf1;
+    --secondary-button-color: #9696ff;
+}
