@@ -1,0 +1,45 @@
+/*
+    CALENDAR STYLESHEET -- Styling for calendar and events webpage
+*/
+
+#doc-body {
+    /* Defines the main body of the document */
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#doc-footer {
+    display:flex;
+    align-content: center;
+    margin-top: 20vh;
+}
+
+#doc-title {
+    color: var(--primary-accent-color);
+    font-family: lato;
+    font-size: 3rem;
+    margin-top: 10vh;
+}
+
+#event-list {
+    margin-top: 5vh;
+    color: var(--primary-text-color);
+    font-family: lato;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#event-list > ul {
+    list-style-type: none;
+    text-align: center;
+    line-height: 2.5rem;
+}
+
+#closing {
+    color: var(--primary-text-color);
+    font-family: lato;
+    font-size: 2.5rem;
+    margin-top: 10vh;
+}

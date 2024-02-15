@@ -1,0 +1,70 @@
+#doc-title {
+    margin-top: 10vh;
+    font-family: lato;
+    font-size: 3.5rem;
+    color: var(--primary-accent-color);
+}
+
+#doc-body {
+    /* Defines the main body of the document */
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#doc-footer {
+    display:flex;
+    align-content: center;
+    margin-top: 20vh;
+}
+
+#booking-form {
+    font-family: lato;
+    margin-top: 5vh;
+    font-size: 2rem;
+    color: var(--primary-text-color);
+}
+
+#booking-form-element {
+    font-family: lato;
+    margin-top: 2.5vh;
+    font-size: 1.5rem;
+    color: var(--primary-text-color);
+}
+
+#secondary-title {
+    font-family: lato;
+    margin-top: 15vh;
+    font-size: 2rem;
+    color: var(--secondary-accent-color);
+}
+
+#secondary-title-2 {
+    font-family: lato;
+    margin-top: 15vh;
+    margin-bottom: 5vh;
+    font-size: 2rem;
+    color: var(--secondary-accent-color);
+}
+
+#secondary-title-3 {
+    font-family: lato;
+    margin-top: 15vh;
+    font-size: 2rem;
+    color: var(--secondary-accent-color);
+}
+
+#name-input {
+    margin-top: 5vh;
+    font-family: lato;
+    font-size: 1rem;
+    color: var(--primary-text-color);
+}
+
+#date-input {
+    margin-top: 5vh;
+    font-family: lato;
+    font-size: 1rem;
+    color: var(--primary-text-color);
+}

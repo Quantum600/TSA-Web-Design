@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Setting up website attributes and linking images/files to the page. -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CreatorLabs</title>
+    <link rel="icon" type="image/x-icon" href="images/cog_icon.jpg">
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="booking.css">
+</head>
+<body>
+    <!-- Header of webpage -->
+    <header>
+        <!-- Website Navbar -->
+        <nav>
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="index.html"><b>Creator</b>Labs</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="equipment.html">Equipment</a>
+                </li>
+                <li class="nav-item">
+                    <a href="membership.html">Membership</a>
+                </li>
+                <li class="nav-item">
+                    <a href="calendar.html">Calendar</a>
+                </li>
+                <li class="nav-item">
+                    <a href="booking.html">Book</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Body of webpage -->
+    <main id="doc-body">
+        <div class="flex-break"></div>
+
+        <div id="doc-title">Book Space</div>
+        <div class="flex-break"></div>
+
+        <div id="secondary-title">What type of space do you want to book?</div>
+        <div class="flex-break"></div>
+
+        <form id="booking-form">
+            <input type="radio" id="3d-printing" value="3D printing" name="space-type">
+            <label for="3d-printing" id="booking-form-element">3D Printing</label>
+            <br>
+
+            <input type="radio" id="woodworking" value="Woodworking" name="space-type">
+            <label for="woodworking" id="booking-form-element">Woodworking</label>
+            <br>
+
+            <input type="radio" id="metalworking" value="Metalworking" name="space-type">
+            <label for="metalworking" id="booking-form-element">Metalworking</label>
+            <br>
+
+            <input type="radio" id="electronics" value="Electronics" name="space-type">
+            <label for="electronics" id="booking-form-element">Electronics</label>
+            <br>
+
+            <input type="radio" id="computers" value="Computers" name="space-type">
+            <label for="computers" id="booking-form-element">Computers</label>
+        </form>
+
+        <div class="flex-break"></div>
+        <div id="secondary-title-2">What is your name?</div>
+        <div class="flex-break"></div>
+
+        <form id="name-form">
+            <label for="name" id="name-input">Full name:</label>
+            <br>
+            <input type="text" id="name"name="name" ;>
+            <br>
+        </form>
+
+        <div class="flex-break"></div>
+        <div id="secondary-title-3">What day and time would you like to book the space?</div>
+        <div class="flex-break"></div>
+
+        <form id="date-time-form">
+            <label for="name" id="date-input">Day:</label>
+            <br>
+            <input type="text" id="name"name="name" ;>
+            <br>
+
+            <label for="name" id="date-input">Time:</label>
+            <br>
+            <input type="text" id="name"name="name" ;>
+            <br>
+
+            <button type="submit" name="submit-button" value="submit"><a href="index.html">SUBMIT</a></button>
+        </form>
+    </main>
+
+    <!-- Footer of le webpage -->
+    <footer id="doc-footer">
+        
+    </footer>
+</body>
+</html>
